@@ -1,7 +1,10 @@
-.*.swp
-.*.swo
-/build/
-/Debug/
-/Release/
-/Multi/
-/compile_commands.json
+*.swp
+/bin/
+/activate.sh
+/conan.lock
+/conan_imports_manifest.txt
+/conanbuildinfo.txt
+/conaninfo.txt
+/deactivate.sh
+/environment.sh.env
+/graph_info.json
