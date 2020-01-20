@@ -1,0 +1,14 @@
+#ifndef EMSCRIPTEN_TEST 
+#define EMSCRIPTEN_TEST
+
+namespace emscripten_test {
+
+  constexpr char major_version_number[] = "@MAJOR_VERSION_NUMBER@";
+
+  constexpr char minor_version_number[] = "@MINOR_VERSION_NUMBER@";
+
+  constexpr char patch_version_number[] = "@PATCH_VERSION_NUMBER@";
+
+} // namespace emscripten_test
+
+#endif // EMSCRIPTEN_TEST

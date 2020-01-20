@@ -1,0 +1,10 @@
+[requires]
+emscripten-test/0.1
+
+[generators]
+virtualenv
+
+[imports]
+bin, *.html -> ./bin
+bin, *.wasm -> ./bin
+bin, *.js -> ./bin
